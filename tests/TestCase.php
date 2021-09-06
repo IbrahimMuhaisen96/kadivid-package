@@ -2,9 +2,9 @@
 
 namespace Ibrah\Ibrahipkg\Tests;
 
+use Ibrah\Ibrahipkg\IbrahipkgServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ibrah\Ibrahipkg\IbrahipkgServiceProvider;
 
 class TestCase extends Orchestra
 {

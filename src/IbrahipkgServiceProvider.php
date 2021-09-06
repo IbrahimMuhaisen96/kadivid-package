@@ -2,9 +2,9 @@
 
 namespace Ibrah\Ibrahipkg;
 
+use Ibrah\Ibrahipkg\Commands\IbrahipkgCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ibrah\Ibrahipkg\Commands\IbrahipkgCommand;
 
 class IbrahipkgServiceProvider extends PackageServiceProvider
 {
