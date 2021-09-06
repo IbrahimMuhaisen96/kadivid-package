@@ -1,8 +1,8 @@
 {
     "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "description": "This is my package ibrahipkg",
     "keywords": [
-        ":vendor_name",
+        "ibrah",
         "laravel",
         "package_slug"
     ],
@@ -10,8 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "ibra",
+            "email": "ibra@mail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Ibrah\\Ibrahipkg\\": "src",
+            "Ibrah\\Ibrahipkg\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Ibrah\\Ibrahipkg\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Ibrah\\Ibrahipkg\\IbrahipkgServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "Ibrahipkg": "Ibrah\\Ibrahipkg\\IbrahipkgFacade"
             }
         }
     },

@@ -1,13 +1,13 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Ibrah\Ibrahipkg;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \VendorName\Skeleton\Skeleton
+ * @see \Ibrah\Ibrahipkg\Ibrahipkg
  */
-class SkeletonFacade extends Facade
+class IbrahipkgFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {

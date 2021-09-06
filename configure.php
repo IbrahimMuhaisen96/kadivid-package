@@ -100,7 +100,7 @@ if (! confirm('Modify files?', true)) {
     exit(1);
 }
 
-$files = explode(PHP_EOL, run('grep -E -r -l -i ":author|:vendor|:package|VendorName|skeleton|vendor_name|vendor_slug|author@domain.com" --exclude-dir=vendor ./* ./.github/* | grep -v ' . basename(__FILE__)));
+$files = preg_split('/\n|\r\n?/', run('grep -E -r -l -i ":author|:vendor|:package|VendorName|skeleton|vendor_name|vendor_slug|author@domain.com" --exclude-dir=vendor ./* ./.github/* | grep -v ' . basename(__FILE__)));
 
 foreach ($files as $file) {
     replace_in_file($file, [
